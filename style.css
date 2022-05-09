@@ -1,6 +1,6 @@
 .container {
     margin: 0 auto;
-    border: solid 2px black;
+
     
 }
 .keykey {
@@ -9,18 +9,19 @@
     border: 1px solid black;
     margin: 3px;
     padding: 3px;
-    float: left;
+    cursor: pointer;
 }
-.clearfix {
-    display: block;
-    width: 100%;
-    clear: both;
+.keykey:active {
+    background-color: rgb(146, 139, 131);
 }
+
 .keyboardContainer {
-    max-width: 63%;
+    max-width: 940px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    border: solid 1px black;
+
 }
 .keykey:nth-child(14) {
     width: 90px;
@@ -35,9 +36,54 @@
     width: 114px;
 }
 .keykey:nth-child(42) {
-    width: 120px;
+    width: 144px;
 }
-.keykey:nth-child(53) {
-    background-image: url(up-arrow.png);
-    
+.keykey:nth-child(54) {
+display: none;    
 }
+.keykey:nth-child(55) {
+    width: 60px;    
+    }
+.text {
+    width: 937px;
+    height: 192px;
+    margin-left: 281px;
+}
+
+
+#arrowImg {
+    margin: 12px;
+    width: 25px;
+}
+#right__arrow {
+    margin: 12px;
+    width: 25px;
+    transform: rotate(90deg)
+}
+#left__arrow {
+    margin: 12px;
+    width: 25px;
+    transform: rotate(-90deg)
+}
+#down__arrow {
+    margin: 12px;
+    width: 25px;
+    transform: rotate(180deg);
+}
+.keykey:nth-child(59) {
+    width: 376px;
+}
+.keykey:nth-child(56) {
+    width: 84px;
+}
+.keykey:nth-child(65) {
+    display: none;
+}
+.keykey:nth-child(63) {
+    display: none;
+}
+.keykey:nth-child(67) {
+    display: none;
+}
+
+
